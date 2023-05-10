@@ -1,0 +1,33 @@
+.navbar {
+    display: flex;
+    height: 100%;
+    width: 100%;
+    justify-content: space-around;
+    align-items: center;
+    background-color: cadetblue;
+    padding: 10px;
+}
+
+.navbar h1 {
+    width: 30%;
+}
+.navbar h1 a {
+    color: white;
+}
+
+.navbar ul {
+    display: flex;
+    width: 70%;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.navbar ul input {
+    width: 30%;
+    height: 40px;
+    padding: 5px 10px;
+}
+
+.navbar ul li a {
+    color: white;
+}

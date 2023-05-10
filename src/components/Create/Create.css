@@ -1,0 +1,20 @@
+.create-user {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+}
+
+.create-from-list {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 10px;
+}
+
+.create-from-list input {
+    height: 40px;
+    width: 100%;
+}
